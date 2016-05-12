@@ -1,0 +1,26 @@
+{
+  "name": "eyeos-tags-to-dns",
+  "version": "0.0.40",
+  "description": "Given a formatted input of IPs and addresses it makes them resolvable",
+  "main": "src/tagsToDns.js",
+  "author": "eyeOS",
+  "homepage": "http://www.eyeos.com/",
+  "bin": {
+    "tagsToDns": "src/tagsToDns.js"
+  },
+  "dependencies": {
+    "queue": "3.1.0"
+  },
+  "devDependencies": {
+    "eyeos-gruntfile": "*",
+    "grunt": "0.4.5",
+    "grunt-init": "0.3.2",
+    "grunt-mocha-test": "0.12.6",
+    "grunt-shell": "1.1.1",
+    "mocha": "2.1.0",
+    "chai": "3.2.0",
+    "sinon": "1.12.2",
+    "tmp": "0.0.27"
+  },
+  "license": "AGPL-3.0"
+}
