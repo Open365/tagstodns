@@ -1,6 +1,6 @@
 {
   "name": "eyeos-tags-to-dns",
-  "version": "0.0.41",
+  "version": "0.0.42",
   "description": "Given a formatted input of IPs and addresses it makes them resolvable",
   "main": "src/tagsToDns.js",
   "author": "eyeOS",
